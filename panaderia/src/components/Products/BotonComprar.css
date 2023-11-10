@@ -1,0 +1,41 @@
+/* BotonComprar.css */
+
+.btnComprar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; /* Alinear el texto del botón al centro */
+  }
+  
+  .boton-comprar {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .boton-comprar .icono-carrito {
+    margin-right: 8px;
+  }
+  
+  .boton-comprar:hover {
+    background-color: #45a049;
+  }
+  
+  .boton-comprar:active {
+    background-color: #3e8e41;
+  }
+  
+  .precio-antiguo {
+    text-decoration: line-through;
+    margin-right: 8px;
+    color: #f53218; /* Puedes ajustar el color según tus preferencias */
+   
+  }

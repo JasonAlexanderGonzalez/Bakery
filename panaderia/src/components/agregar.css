@@ -1,0 +1,43 @@
+/* Estilos para el formulario */
+.agregar-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.agregar-form label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.agregar-form input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.agregar-form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.agregar-form button:hover {
+  background-color: #45a049;
+}
+
+/* SweetAlert estilos */
+.swal-title {
+  font-size: 24px;
+}
+
+.swal-text {
+  font-size: 18px;
+}

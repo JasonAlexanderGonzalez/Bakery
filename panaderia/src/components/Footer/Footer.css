@@ -1,0 +1,45 @@
+.footer {
+    background-color: #f7f6f6;
+    color: #0e0d0d;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .footer-icon {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .footer-icon svg {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #1d1c1c; /* Color blanco por defecto */
+  }
+  
+  .footer-icon p {
+    margin: 0;
+  }
+  
+  /* Cambio de color en el hover */
+  .footer-icon:hover svg {
+    color: #00cc00; /* Color verde cuando el mouse está sobre el icono */
+  }
+  
+  /* Cambio de color en el estado activo */
+  .footer-icon:active svg {
+    color: #00cc00; /* Color verde cuando el icono está activo (clic sostenido) */
+  }
+  
+  /* Media Query para hacer el footer responsive */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-wrap: wrap;
+    }
+  }
+  

@@ -1,0 +1,74 @@
+/* Estilos del modal */
+.modal-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .modal-image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .modal-image img {
+    max-width: 100%;
+  }
+  
+  .modal-details {
+    flex: 1;
+  }
+  
+  .modal-details .precio {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .modal-details .cantidad-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .modal-details .cantidad-title {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .modal-details .cantidad {
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+  .modal-details .agotado {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo del contenedor de botones */
+  .modal-details .botones-container {
+    display: flex;
+  }
+  
+  /* Estilo del botón "Agregar al carrito" */
+  .modal-details .boton-agregar-carrito {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px; /* Agregar margen entre los botones */
+  }
+  
+  /* Estilo del botón "Comprar" */
+  .modal-details .boton-comprar {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
